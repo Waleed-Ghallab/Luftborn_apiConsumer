@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullname": "waleed ghallab",
+      "email": "waleed@gmail.com",
+      "password": "12345",
+      "mobile": 16965656264,
+      "id": 2
+    },
+    {
+      "fullname": "joe",
+      "email": "joe@yahoo.com",
+      "password": "12345",
+      "mobile": 1694956565656,
+      "id": 3
+    },
+    {
+      "fullname": "waleed ghallab",
+      "email": "dsdsdfdf",
+      "password": "12345",
+      "mobile": 4456,
+      "id": 4
+    }
+   
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

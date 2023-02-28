@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.btn{
+    width: 100%;
+}
+input.invalid{
+    border-color: red;
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+thead{
+    background-color: beige;
+    text-align: center;
+}

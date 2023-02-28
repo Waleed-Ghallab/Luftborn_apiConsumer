@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>SignUp</h1>
+                    <h6>Register yourself here</h6>
+                </div>
+                <form>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                            <input formControlName="fullname" type="text" class="form-control" id="exampleInputPassword1" 
+                            placeholder="full name" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                            <input formControlName="mobile" type="number" class="form-control" id="exampleInputPassword1" 
+                            placeholder="phone number" type="number" maxlength="11" minlength="11" required >
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input formControlName="email" required type="email" class="form-control" id="exampleInputEmail1" 
+                          aria-describedby="emailHelp" placeholder="name@example.com" email="true">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input formControlName="password" required type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary mb-2">SignUp</button>
+                    </form>
+                      <a style="color: #fff;" routerLink="/login">Have account?! Click here to LogIn</a>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
